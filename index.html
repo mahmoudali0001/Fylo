@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>
+      Frontend Mentor | Fylo landing page with dark theme and features grid
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="header-nav">
+          <div class="logo">
+          <img src="./assets/images/logo.svg">
+          </div>
+          <ul class="links">
+            <li><a href="#service">Features</a></li>
+            <li><a href="#about-us">Team</a></li>
+            <li><a href="#contact-us">Sign In</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="file-upload" id="file-upload">
+      <div class="file-upload-content">
+        <div>
+          <img src="./assets/images/illustration-intro.png">
+        </div>
+        <div>
+          <h1>All your files in one secure location, accessible anywhere.</h1>
+          <p>Fylo stores all your most important files in one secure loction.Access them wherever you need, share and collaborate with friends family, and co-working</p>
+          <button>Get Started</button>
+        </div>
+      </div>
+      <img class="file-upload-bg" src="./assets/images/bg-curvy-desktop.svg"></img>
+      <div class="curvy-bg"></div>
+      <img class="file-upload-bg-2" src="./assets/images/bg-curvy-mobile.svg"></img>
+    </div>
+
+    <div class="service" id="service">
+      <div class="container">
+        <div class="service-content">
+          <div class="service-item">
+            <div><img src="./assets/images/icon-access-anywhere.svg"></div>
+            <h3>Access your files, anywhere</h3>
+            <p>The ability to use a smartphone, tablet, or comupter to access your account means your files follow you everywhere.</p>
+          </div>
+          <div class="service-item">
+            <div><img src="./assets/images/icon-security.svg"></div>
+            <h3>Security you can trust</h3>
+            <p>2-factor authenticion and user-controlled encryption are just a couple of the security features we allow to help secure your files.</p>
+          </div>
+          <div class="service-item">
+            <div><img src="./assets/images/icon-collaboration.svg"></div>
+            <h3>Real-time collaboration</h3>
+            <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+          </div>
+          <div class="service-item">
+            <div><img src="./assets/images/icon-any-file.svg" ></div>
+            <h3>Store any type of files</h3>
+            <p>whether you're sharing holidays photos or work documents, Flyo has you covered allowing for all file types to be securely stored and shared.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-us" id="about-us">
+      <div class="container">
+        <div class="about-us-content">
+          <img src="./assets/images/illustration-stay-productive.png">
+          <div>
+            <h1>Stay productive,<br> wherever you are</h1>
+            <div>
+              <p>Never let loction be an issue when accessing your files. Flyo has you convered for all your file storage needs</p>
+              <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required. </p>
+            </div>
+            <a href="#">See how Flyo Works <span>⬤</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial" id="testimonial">
+      <div class="container">
+        <div class="testimonial-content">
+          <img class="bg-quotes" src="./assets/images/bg-quotes.png">
+          <div class="testimonial-card">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis suscipit tempore vel expedita vero nobis esse aperiam nulla inventore molestiae? Provident similique voluptatibus ducimus mollitia exercitationem harum modi cumque id?</p>
+            <div class="person-info">
+              <img src="./assets/images/profile-1.jpg">
+              <div>
+                <h4>Satish Patel</h4>
+                <span>Founder & CEO, Huddle</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis suscipit tempore vel expedita vero nobis esse aperiam nulla inventore molestiae? Provident similique voluptatibus ducimus mollitia exercitationem harum modi cumque id?</p>
+            <div class="person-info">
+              <img src="./assets/images/profile-2.jpg">
+              <div>
+                <h4>Bruce McKenzle</h4>
+                <span>Founder & CEO, Huddle</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis suscipit tempore vel expedita vero nobis esse aperiam nulla inventore molestiae? Provident similique voluptatibus ducimus mollitia exercitationem harum modi cumque id?</p>
+            <div class="person-info">
+              <img src="./assets/images/profile-3.jpg">
+              <div>
+                <h4>Iva Boyd</h4>
+                <span>Founder & CEO, Huddle</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div class="contact-us" id="contact-us">
+          <h1>Get early access Today</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque eligendi harum, eaque dicta asperiores, laboriosam provident ipsam alias ut,  eaque dicta asperiores, laboriosam provident ipsam alias ut!</p>
+          <div class="send-email">
+            <input type="email" id="email">
+            <input type="submit" id="btn" value="Get Started For Free">
+          </div>
+          <span id="validEmail" class="msg">Please Enter a Valid email address</span>
+      </div>
+      <div class="info-parent">
+        <div class="container">
+          <img src="./assets/images/logo.svg">
+          <div class="info">
+            <div>
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam incidunt doloribus asperiores magnam recusandae obcaecati tempora consectetur. Sit sunt id dignissimos labore iure quaerat voluptatum, laboriosam minus velit necessitatibus nisi.</p>
+            </div>
+            <div>
+              <div>
+                <i class="fa-solid fa-phone-volume"></i>
+                <span>+1-543-123-4567</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>example@flyo.com</span>
+              </div>
+            </div>
+            <div>
+              <div>
+                <a href="#">About Us</a>
+                <a href="#">Jobs</a>
+                <a href="#">Press</a>
+                <a href="#">Blog</a>
+              </div>
+              <div>
+                <a href="#">Contact Us</a>
+                <a href="#">Terms</a>
+                <a href="#">Privacy</a>
+              </div>
+            </div>
+            <div>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
