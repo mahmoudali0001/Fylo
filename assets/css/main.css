@@ -108,12 +108,12 @@ body {
   color: var(--offwhite-color);
   transition: 0.3s linear;
   display: inline-block;
+  border-bottom: 1px solid transparent;
 }
 
 .header .container .header-nav .links li a:hover {
-  border-bottom: 1px solid white;
+  border-color: white;
   color: white;
-  transform: scale(1.06);
 }
 
 .header .header-bg {
@@ -220,7 +220,7 @@ body {
   }
 }
 
-.file-upload-content div button {
+.file-upload-content div a {
   width: 250px;
   border: none;
   background-image: linear-gradient(
@@ -232,6 +232,8 @@ body {
   border-radius: 25px;
   padding: 15px 0;
   margin-top: 15px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .file-upload .file-upload-bg {
@@ -306,6 +308,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 50px;
 }
 
 .service .service-content .service-item div {
@@ -319,7 +322,6 @@ body {
 .service .service-content .service-item p {
   margin-top: 5px;
   text-align: center;
-  width: 70%;
   color: var(--offwhite-color);
   font-size: 15px;
 }
@@ -345,6 +347,7 @@ body {
 @media (max-width: 992px) {
   .about-us .container .about-us-content {
     flex-direction: column;
+    text-align: center;
   }
 }
 
@@ -401,7 +404,7 @@ body {
 }
 
 .testimonial-content .testimonial-card p {
-  font-size: 12px;
+  font-size: smaller;
 }
 
 .testimonial-content .testimonial-card .person-info {
@@ -412,9 +415,9 @@ body {
 }
 
 .testimonial-content .testimonial-card .person-info img {
-  width: 30px;
-  height: 30px;
+  width: 40px;
   border-radius: 50%;
+  margin-right: 10px;
 }
 
 .testimonial-content .testimonial-card .person-info div {
@@ -423,13 +426,13 @@ body {
 }
 
 .testimonial-content .testimonial-card .person-info h4 {
-  font-size: 10px;
+  font-size: smaller;
   margin: 0;
 }
 
 .testimonial-content .testimonial-card .person-info span {
   color: var(--offwhite-color);
-  font-size: 7px;
+  font-size: small;
 }
 
 /* Start Testimonial */
@@ -657,6 +660,10 @@ footer .info-parent .container .info div:nth-child(4) i {
 
 .show {
   display: block;
+}
+
+p {
+  line-height: 1.6;
 }
 
 /* End Footer */
